@@ -18,10 +18,10 @@ public class Question1 {
 
     public static void main(String[] args) {
       //  Printall();
-        Employee e1 = new Employee("John", 22);
-        Employee e2 = new Employee("kumar", 3);
-        Employee e3 = new Employee("John", 18);
-        Employee e4 = new Employee("kumar", 1);
+        Employee e1 = new Employee("natasha", 22);
+        Employee e2 = new Employee("peter", 3);
+        Employee e3 = new Employee("stark", 18);
+        Employee e4 = new Employee("thanos", 1);
         Circle c1 = new Circle(12);
         Circle c2 = new Circle(10);
         Circle c3 = new Circle(22);
@@ -34,13 +34,19 @@ public class Question1 {
         clist.add(c2);
         clist.add(c3);
         clist.add(c4);
-        sortable s = new Employee();
-        sortable circle = new Circle();
-        Collections.sort(elist, s);
-        Collections.sort(clist, circle);
+
+       sortAll();
         System.out.println(elist);
         System.out.println(clist);
 
+    }
+
+    private static void sortAll() {
+        sortable s = new Employee();
+        sortable circle = new Circle();
+
+        Collections.sort(elist, s);
+        Collections.sort(clist, circle);
     }
 
     public static void Printall() {
