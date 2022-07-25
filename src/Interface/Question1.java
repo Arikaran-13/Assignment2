@@ -17,22 +17,30 @@ public class Question1 {
     static ArrayList<Circle> clist = new ArrayList<>();
 
     public static void main(String[] args) {
-        Printall();
-        /*Employee e1 = new Employee("John", 22);
+      //  Printall();
+        Employee e1 = new Employee("John", 22);
         Employee e2 = new Employee("kumar", 3);
+        Employee e3 = new Employee("John", 18);
+        Employee e4 = new Employee("kumar", 1);
         Circle c1 = new Circle(12);
         Circle c2 = new Circle(10);
+        Circle c3 = new Circle(22);
+        Circle c4 = new Circle(1);
         elist.add(e1);
         elist.add(e2);
+        elist.add(e3);
+        elist.add(e4);
         clist.add(c1);
         clist.add(c2);
+        clist.add(c3);
+        clist.add(c4);
         sortable s = new Employee();
         sortable circle = new Circle();
         Collections.sort(elist, s);
         Collections.sort(clist, circle);
         System.out.println(elist);
         System.out.println(clist);
-*/
+
     }
 
     public static void Printall() {
